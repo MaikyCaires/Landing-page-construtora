@@ -1,0 +1,32 @@
+.main-intro{
+    background-image: url(/img/backgroundHeader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.flex-intro{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 100vh;
+}
+.text-intro h1{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+.text-intro p{
+    font-size: 20px;
+}
+.list-location{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+.list-location li{
+    font-size: 2.5rem;
+    text-align: end;
+    text-transform: uppercase;
+}
+.text-intro{
+    align-self: center;
+}

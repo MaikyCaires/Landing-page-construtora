@@ -1,0 +1,16 @@
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-link{
+    display: flex;
+    gap: 18px;
+}
+.flex-link li a{
+    padding-block: 20px;
+}
+.main-header{
+    background: var(--Cor-Dominante-1-Dark-Dark, #101010);
+    padding: 5px 0;
+}
