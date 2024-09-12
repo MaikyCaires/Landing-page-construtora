@@ -13,10 +13,47 @@
     font-family: "Playfair Display";
     text-transform: uppercase;
     font-weight: 400;
+    margin-bottom: 300px;
 }
-
+.flex-texto{
+    position: relative;
+}
 .flex-texto p{
     width: 900px;
+    height: 40px;
     font-family: "Montserrat";
     font-size: 1.1rem;
-}   
+    position: absolute;
+    transform: translate(-50%, -320%);
+    opacity: 0 ;
+    
+}
+.flex-texto p.amostrar{
+    opacity: 1;
+}
+.card-container-img{
+    position: absolute;
+    transform: translate(-50%);
+    opacity: 0;
+}
+.flex-img{
+    margin-bottom: 200px;
+    position: relative;  
+}
+.altier-moema{
+    
+    height: 100vh;
+}
+button{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: -450px;
+    left: 150px;
+    cursor: pointer;
+}
+
+.mostrar{
+    opacity: 1;
+}
