@@ -144,4 +144,15 @@
         justify-content: center;
         align-items: center;
     }
+    .flex-texto p{
+        width: 900px;
+        height: 40px;
+        font-family: "Montserrat";
+        font-size: 1.1rem;
+        position: absolute;
+        transform: translate(-50%, -700%);
+        opacity: 0 ;
+        color: white;
+        
+    }
 }
