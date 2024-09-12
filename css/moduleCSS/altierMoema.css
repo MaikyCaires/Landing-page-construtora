@@ -111,3 +111,37 @@
 .item-cor-ativa{
     background-color: #C39425;
 }
+@media only screen and (min-width: 1920px){
+    .card-container-img img{
+        width: 900px;
+        height: auto;
+    }
+    .btn-left{
+        position: absolute;
+        z-index: 999;
+        background-color: transparent;
+        left: 480px;
+        bottom: -120px;
+        border: none;
+        cursor: pointer;
+    
+    }
+    .flex-img .btn-right{
+        position: absolute;
+        z-index: 999;
+        background-color: transparent;
+        border: none;
+        bottom: -120px;
+        right: 480px;
+        cursor: pointer;
+    }
+    .nav-color{
+        position: absolute;
+        bottom: -380px;
+        right: -200px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+}
