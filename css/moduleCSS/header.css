@@ -14,3 +14,7 @@
     background: var(--Cor-Dominante-1-Dark-Dark, #101010);
     padding: 5px 0;
 }
+
+.flex-header img, .flex-header li{
+    z-index: 2;
+}
