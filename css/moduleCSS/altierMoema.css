@@ -4,15 +4,17 @@
     flex-direction: column;
     align-items: center;
 }
-.altier-moema{
+.main-altier-moema{
     background-image: url(/img/altierMoema/backgroundAltier.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 100vh;
+    height: 190vh;
+    
     
 }
-.altier-moema::before{
+
+.main-altier-moema::before{
             content: '';
             position: absolute;
             top: 0;
@@ -65,7 +67,6 @@
     position: relative;  
 }
 .altier-moema{
-    
     height: 100vh;
 }
 
@@ -111,7 +112,101 @@
 .item-cor-ativa{
     background-color: #C39425;
 }
+.info-obra{
+    color: red;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+    
+}
+.itens{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+.itens p{
+    color: white;
+    background-color: #343434;
+    padding: 20px 30px;
+    width: 16rem;
+    text-align: center;
+    font-family: "Montserrat";
+    
+}
+.status-obra{
+    text-align: center;
+    margin-top: 8rem;
+}
+.text-obra h3{
+    font-size: 2rem;
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    margin-bottom: 1rem;
+    
+}
+.text-obra p{
+    color: white;
+    position: relative;
+    font-family: "Montserrat";
+    margin-bottom: 3rem;
+}
+.branco{
+    position: relative;
+    background-color: #D9D2C5;
+    color: red;
+    width: 815px;
+    height: 52px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+.amarelo{
+    position: absolute;
+    background-color: #B3B000;
+    color: white;
+    width: 10%;
+    height: 52px;
+    margin: 0 auto;
+    font-size: 2.5rem;
+}
+.btn-info{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    right: 12rem;
+    
+}
+.btn-info-item button{
+    width: 12.5rem;
+    padding: 5px 15px;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #B3B000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Montserrat";
+    border-radius: 5px;
+}
+#btn-visita{
+    background-color: transparent;
+    border: solid 2px #B3B000 ;
+}
 @media only screen and (min-width: 1920px){
+    .main-altier-moema{
+        height: 150vh;
+    }
     .card-container-img img{
         width: 900px;
         height: auto;
@@ -152,7 +247,22 @@
         position: absolute;
         transform: translate(-50%, -700%);
         opacity: 0 ;
-        color: white;
+        color: white; 
+    }
+    .info-obra{
+        margin-top: 14rem;
+        max-width: 1400px;
+    }
+    .btn-info{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        right: 18rem;
         
     }
+    .branco{
+        width: 1000px;
+    }
+    
 }
