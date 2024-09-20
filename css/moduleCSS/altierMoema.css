@@ -203,6 +203,9 @@
     background-color: transparent;
     border: solid 2px #B3B000 ;
 }
+.container-video{
+    max-width: 100%;
+}
 @media only screen and (min-width: 1920px){
     .main-altier-moema{
         height: 150vh;
