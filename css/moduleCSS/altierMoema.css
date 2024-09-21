@@ -275,7 +275,7 @@ input[type="text"]:focus, input[type="email"]:focus {
     border-bottom: 2px solid #B3B000;
 }
 
-button {
+.btn-form {
     display: flex;
     background: #B88B00;
     border: none;
@@ -298,7 +298,7 @@ button {
     margin-right: -80px;
 }
 
-button:hover {
+.btn-form:hover {
     background: #c79910;
 }
 
