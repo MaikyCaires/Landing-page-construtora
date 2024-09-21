@@ -206,6 +206,102 @@
 .container-video{
     max-width: 100%;
 }
+
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--Cor-Dominante-1-Dark, #1F1F1F);
+    padding: 3rem;
+    width: 100%;
+    margin-top: -5px;
+}
+
+h1 {
+    margin: 0 0 8rem 0;
+    text-align: center;
+    color: var(--Basics-White, #FFF);
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem 10rem;
+}
+
+form .collumns2{
+    grid-row: 3;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form .input-group:nth-child(odd) {
+    margin-right: 30px; /* Ajuste o valor para o espaçamento desejado */
+}
+
+label {
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+input[type="text"], input[type="email"] {
+    padding: 15px 0;
+    border: none;
+    width: 400px;
+    height: 5px;
+    border-bottom: 2px solid #B3B000;
+    background: none;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border-bottom: 2px solid #B3B000;
+}
+
+button {
+    display: flex;
+    background: #B88B00;
+    border: none;
+    border-radius: .25rem;
+    width: 267px;
+    height: 51px;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    grid-column: 2 / 3; 
+    grid-row: 4;
+    justify-self: end;
+    margin-top: 1rem;
+    margin-right: -80px;
+}
+
+button:hover {
+    background: #c79910;
+}
+
 @media only screen and (min-width: 1920px){
     .main-altier-moema{
         height: 150vh;
@@ -267,5 +363,5 @@
     .branco{
         width: 1000px;
     }
-    
+
 }
